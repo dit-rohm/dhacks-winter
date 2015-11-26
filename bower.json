@@ -1,0 +1,21 @@
+{
+  "name": "dhacks-winter",
+  "version": "0.0.0",
+  "authors": [
+    "dit <dit.rohm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass-official": "~3.3.4",
+    "slick-carousel": "~1.5.8",
+    "zoomjs": "~0.0.2"
+  }
+}
