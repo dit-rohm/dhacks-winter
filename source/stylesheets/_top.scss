@@ -379,7 +379,7 @@ $pw: 60px;
   padding: 0;
   padding-top: $section-margin;
   .container {
-    max-width: 750px;
+    max-width: 650px;
     text-align: center;
     h2 {
       margin-bottom: $base-margin * 1.5;
@@ -406,7 +406,7 @@ $pw: 60px;
       }
       .cybozu {
         img {
-          width: 130px;
+          width: 150px;
         }
       }
     }
@@ -423,8 +423,8 @@ $pw: 60px;
         padding-top: 0 !important;
         padding-bottom: $base-margin + 10;
       }
-      .cyberagent {
-        padding-bottom: $base-margin;
+      .cybozu {
+        padding-bottom: $base-margin + 10;
       }
     }
   }
@@ -451,6 +451,13 @@ $pw: 60px;
     opacity: 1;
     @include transition-duration(0.2s);
     @include transition-timing-function(ease-in-out);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  #registration {
+    padding-top: $base-margin;
   }
 }
 
