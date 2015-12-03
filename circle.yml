@@ -1,0 +1,29 @@
+machine:
+  ruby:
+    version: 2.2.3
+  node:
+    version: 5.1.0
+  timezone:
+    Asia/Tokyo
+
+general:
+  artifacts:
+    - "dist"
+  branches:
+    ignore:
+      - gh-pages
+
+dependencies:
+  pre:
+    - gem install compass
+    - bower install
+
+test:
+  override:
+    - npm run build
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - bash contrib/deploy.sh
