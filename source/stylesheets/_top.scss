@@ -379,7 +379,7 @@ $pw: 60px;
   padding: 0;
   padding-top: $section-margin;
   .container {
-    max-width: 650px;
+    max-width: 800px;
     text-align: center;
     h2 {
       margin-bottom: $base-margin * 1.5;
@@ -398,10 +398,9 @@ $pw: 60px;
           width: 230px;
         }
       }
-      .cyberagent {
-        margin-right: 0;
+      .leverages {
         img {
-          width: 130px;
+          width: 230px;
         }
       }
       .cybozu {
