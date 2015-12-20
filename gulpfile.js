@@ -124,7 +124,7 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('misc', function() {
-  var glob = '**/*.+(txt)';
+  var glob = '**/*.+(txt|yml)';
   return gulp.src(path.join(source.root, glob))
     .pipe(gulp.dest(build.root));
 });
