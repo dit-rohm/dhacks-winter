@@ -16,6 +16,8 @@
     "jquery": "~2.1.4",
     "bootstrap-sass-official": "~3.3.4",
     "slick-carousel": "~1.5.8",
-    "zoomjs": "~0.0.2"
+    "zoomjs": "~0.0.2",
+    "oauthio-web": "*",
+    "components-font-awesome": "*"
   }
 }

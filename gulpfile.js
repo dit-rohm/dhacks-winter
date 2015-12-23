@@ -100,7 +100,8 @@ gulp.task('bower', function() {
     'bower_components/jquery/dist/jquery.min.js',
     'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js',
     'bower_components/slick-carousel/slick/slick.min.js',
-    'bower_components/zoomjs/dist/zoom.min.js'
+    'bower_components/zoomjs/dist/zoom.min.js',
+    'bower_components/oauthio-web/dist/oauth.min.js'
   ];
   return gulp.src(bowerFiles)
     .pipe(uglify({preserveComments: 'some'}))
@@ -110,7 +111,8 @@ gulp.task('bower', function() {
 
 gulp.task('font', function() {
   var fonts = [
-    'bower_components/slick-carousel/slick/fonts/slick.*'
+    'bower_components/slick-carousel/slick/fonts/slick.*',
+    'bower_components/components-font-awesome/fonts/*'
   ];
   return gulp.src(fonts)
     .pipe(gulp.dest(build.font));

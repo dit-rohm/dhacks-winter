@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 .jumbotron {
   margin-bottom: 0;
@@ -53,6 +53,7 @@
   }
   p {
     margin: 0;
+    margin-top: 10px;
   }
   .btn-more {
     display: block;
