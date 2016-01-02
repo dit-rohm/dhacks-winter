@@ -395,17 +395,23 @@ $pw: 60px;
       .supporterz {
         padding-top: 25px;
         img {
-          width: 230px;
+          max-width: 230px;
         }
       }
       .leverages {
         img {
-          width: 230px;
+          max-width: 230px;
         }
       }
       .cybozu {
         img {
-          width: 150px;
+          max-width: 150px;
+        }
+      }
+      .dmm {
+        padding-top: 25px;
+        img {
+          max-width: 280px;
         }
       }
     }
@@ -423,7 +429,13 @@ $pw: 60px;
         padding-bottom: $base-margin + 10;
       }
       .cybozu {
-        padding-bottom: $base-margin + 10;
+        padding-bottom: 10px;
+      }
+      .leverages {
+        padding-bottom: 10px;
+      }
+      .dmm {
+        padding-top: 0;
       }
     }
   }
@@ -456,7 +468,7 @@ $pw: 60px;
 
 @media screen and (max-width: 767px) {
   #registration {
-    padding-top: $base-margin;
+    padding-top: $base-margin * 2;
   }
 }
 
