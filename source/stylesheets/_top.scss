@@ -409,9 +409,14 @@ $pw: 60px;
         }
       }
       .dmm {
-        padding-top: 25px;
+        padding-top: 15px;
         img {
           max-width: 280px;
+        }
+      }
+      .recruit {
+        img {
+          max-width: 240px;
         }
       }
     }
@@ -436,6 +441,9 @@ $pw: 60px;
       }
       .dmm {
         padding-top: 0;
+      }
+      .recruit {
+        padding-top: 20px;
       }
     }
   }
