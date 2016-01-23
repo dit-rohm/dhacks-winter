@@ -404,19 +404,27 @@ $pw: 60px;
         }
       }
       .cybozu {
+        margin-top: -15px;
         img {
           max-width: 150px;
         }
       }
       .dmm {
-        padding-top: 15px;
+        padding-top: 65px;
         img {
-          max-width: 280px;
+          max-width: 230px;
         }
       }
       .recruit {
+        padding-top: 35px;
         img {
-          max-width: 240px;
+          max-width: 230px;
+        }
+      }
+      .oro {
+        margin-top: -15px;
+        img {
+          max-width: 180px;
         }
       }
     }
@@ -437,13 +445,15 @@ $pw: 60px;
         padding-bottom: 10px;
       }
       .leverages {
-        padding-bottom: 10px;
       }
       .dmm {
-        padding-top: 0;
+        padding-top: 10px !important;
       }
       .recruit {
         padding-top: 20px;
+      }
+      .oro {
+        margin-top: 0 !important;
       }
     }
   }
