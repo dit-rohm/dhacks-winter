@@ -14,4 +14,8 @@ $(function () {
   $('a:contains("ENTRY")').click(function () {
     isEntryClick = true;
   })
+
+  if (window.history && window.history.pushState) {
+    history.pushState(null, null, 'https://dhacks.party/entry.html');
+  }
 });
