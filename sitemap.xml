@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://dhacks.party/entry.html</loc>
+        <lastmod>2016-01-30T02:35:37.364Z</lastmod>
+    </url>
+    <url>
         <loc>https://dhacks.party/</loc>
-        <lastmod>2016-01-23T01:26:30.598Z</lastmod>
+        <lastmod>2016-01-30T02:35:37.380Z</lastmod>
     </url>
     <url>
         <loc>https://dhacks.party/privacy.html</loc>
-        <lastmod>2016-01-23T01:26:30.598Z</lastmod>
+        <lastmod>2016-01-30T02:35:37.380Z</lastmod>
     </url>
 </urlset>
