@@ -379,7 +379,7 @@ $pw: 60px;
   padding: 0;
   padding-top: $section-margin;
   .container {
-    max-width: 800px;
+    max-width: 950px;
     text-align: center;
     h2 {
       margin-bottom: $base-margin * 1.5;
@@ -425,6 +425,11 @@ $pw: 60px;
         margin-top: -15px;
         img {
           max-width: 180px;
+        }
+      }
+      .klab {
+        img {
+          max-width: 120px;
         }
       }
     }
